@@ -7,9 +7,9 @@ class MainPage(webapp2.RequestHandler):
 
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Hello, World!')
+        self.response.write('Hello, World!\n')
         # Random message, used to sanity check the app was updated.
-        self.response.write('Apple')
+        self.response.write('Banana')
 
 
 application = webapp2.WSGIApplication([

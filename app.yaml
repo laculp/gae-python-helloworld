@@ -1,6 +1,6 @@
 # NOTE: Unless you are chrsmith, you probably will want to
 # change this App ID.
-application: avid-theme-554
+application: test-0609-p2d
 
 version: 1
 runtime: python27

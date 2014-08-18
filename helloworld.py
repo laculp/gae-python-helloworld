@@ -9,7 +9,7 @@ class MainPage(webapp2.RequestHandler):
         self.response.headers['Content-Type'] = 'text/plain'
         self.response.write('Hello, World!\n')
         # Random message, used to sanity check the app was updated.
-        self.response.write('avid-theme deployment.')
+        self.response.write('logical-waters-676 deployment.')
 
 
 application = webapp2.WSGIApplication([

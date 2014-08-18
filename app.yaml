@@ -10,3 +10,4 @@ threadsafe: true
 handlers:
 - url: /.*
   script: helloworld.application
+
